@@ -10,7 +10,7 @@ st.set_page_config(page_title="group 7 Plant Disease Classifier", layout="center
 @st.cache_resource
 def load_plant_model():
     # Updated to point to your new Tomato-Optimized EfficientNetB0 file name!
-    return tf.keras.models.load_model('best_plantdoc_modeltrue.keras')
+    return tf.keras.models.load_model('model65.keras')
 
 try:
     model = load_plant_model()
